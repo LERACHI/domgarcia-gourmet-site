@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Gallery from "./pages/Gallery";
+import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/sobre" element={<About />} />
           <Route path="/cardapio" element={<Menu />} />
           <Route path="/galeria" element={<Gallery />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contato" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

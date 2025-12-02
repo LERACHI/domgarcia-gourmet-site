@@ -13,6 +13,7 @@ const Navigation = () => {
     { to: "/sobre", label: "Sobre Nós" },
     { to: "/cardapio", label: "Cardápio" },
     { to: "/galeria", label: "Galeria" },
+    { to: "/blog", label: "Blog" },
     { to: "/contato", label: "Contato" },
   ];
 
