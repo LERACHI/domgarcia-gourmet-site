@@ -76,11 +76,13 @@ const Footer = () => {
                 <span>Foz do Iguaçu, PR</span>
               </a>
               <a
-                href="tel:+5545999999999"
+                href="https://api.whatsapp.com/send/?phone=5545999529010&text&type=phone_number&app_absent=0&utm_source=ig"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-smooth text-sm"
               >
                 <Phone size={16} />
-                <span>(45) 9 9999-9999</span>
+                <span>(45) 9 9952-9010</span>
               </a>
               <a
                 href="mailto:contato@domgarciapizzaria.com.br"
