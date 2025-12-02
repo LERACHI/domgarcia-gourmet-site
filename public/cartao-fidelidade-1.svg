@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Cartão fidelidade Dom Garcia - imãs coloridos</title>
+  <desc id="desc">Ilustração de imãs colecionáveis com frases divertidas usados no cartão fidelidade Dom Garcia</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fef8ec"/>
+      <stop offset="100%" stop-color="#f5e5c8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="140" y="90" width="210" height="320" rx="14" fill="#0b0b0f"/>
+    <rect x="380" y="70" width="210" height="310" rx="14" fill="#fff9d7"/>
+    <rect x="610" y="120" width="210" height="300" rx="14" fill="#cce6ff"/>
+    <rect x="170" y="360" width="210" height="320" rx="14" fill="#f6f2ff"/>
+    <rect x="400" y="370" width="210" height="310" rx="14" fill="#dbf7e0"/>
+  </g>
+  <text x="245" y="170" font-family="Poppins, Arial, sans-serif" font-size="52" fill="#f4d03f" font-weight="700" text-anchor="middle">MI CASA</text>
+  <text x="245" y="230" font-family="Poppins, Arial, sans-serif" font-size="40" fill="#f4d03f" font-weight="700" text-anchor="middle">SU CASA</text>
+  <text x="485" y="150" font-family="Georgia, serif" font-size="42" fill="#c0392b" font-weight="700" text-anchor="middle">EU SOU</text>
+  <text x="485" y="200" font-family="Georgia, serif" font-size="34" fill="#2c3e50" text-anchor="middle">feita para o amor</text>
+  <text x="485" y="245" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#2c3e50" text-anchor="middle">da cabeça aos pés</text>
+  <text x="710" y="200" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#1a5276" font-weight="700" text-anchor="middle">QUE A ALFACE</text>
+  <text x="710" y="245" font-family="Poppins, Arial, sans-serif" font-size="30" fill="#1a5276" text-anchor="middle">tenha gosto de pizza</text>
+  <text x="275" y="450" font-family="Poppins, Arial, sans-serif" font-size="42" fill="#6c3483" font-weight="700" text-anchor="middle">TÔ DE</text>
+  <text x="275" y="500" font-family="Poppins, Arial, sans-serif" font-size="48" fill="#d35400" font-weight="700" text-anchor="middle">BACON</text>
+  <text x="275" y="550" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#6c3483" font-weight="700" text-anchor="middle">a vida</text>
+  <text x="505" y="460" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#0e6251" font-weight="700" text-anchor="middle">O SABOR</text>
+  <text x="505" y="505" font-family="Poppins, Arial, sans-serif" font-size="32" fill="#0e6251" text-anchor="middle">da vida é de quem</text>
+  <text x="505" y="545" font-family="Poppins, Arial, sans-serif" font-size="32" fill="#0e6251" text-anchor="middle">tempera</text>
+  <circle cx="705" cy="450" r="120" fill="#ffffff" stroke="#566573" stroke-width="4" filter="url(#shadow)"/>
+  <text x="705" y="430" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#d35400" font-weight="700" text-anchor="middle">#domgarcialovers</text>
+  <text x="705" y="480" font-family="Poppins, Arial, sans-serif" font-size="26" fill="#566573" text-anchor="middle">Junte os imãs e troque</text>
+</svg>

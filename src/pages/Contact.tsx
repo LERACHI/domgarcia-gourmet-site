@@ -48,8 +48,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-primary" />,
       title: "Telefone",
-      content: "(45) 9 9999-9999",
-      link: "tel:+5545999999999",
+      content: "(45) 9 9952-9010",
+      link: "tel:+5545999529010",
     },
     {
       icon: <Mail className="w-6 h-6 text-primary" />,
@@ -163,7 +163,7 @@ const Contact = () => {
                     type="tel"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="(45) 9 9999-9999"
+                    placeholder="(45) 9 9952-9010"
                     className="bg-background border-border"
                   />
                 </div>

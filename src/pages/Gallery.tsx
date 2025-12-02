@@ -1,9 +1,12 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { Instagram, ExternalLink } from "lucide-react";
+import ambienteExternoImg from "@/assets/ambiente-externo.jpg";
+import playgroundImg from "@/assets/playground.jpg";
+import esfihasImg from "@/assets/esfihas.png";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -26,18 +29,18 @@ const Gallery = () => {
       category: "Pizzas",
     },
     {
-      src: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&q=80",
+      src: esfihasImg,
       alt: "Esfihas artesanais",
       category: "Esfihas",
     },
     {
-      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      src: ambienteExternoImg,
       alt: "Ambiente aconchegante",
       category: "Ambiente",
     },
     {
-      src: "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=800&q=80",
-      alt: "Área familiar com playground",
+      src: playgroundImg,
+      alt: "Area familiar com playground",
       category: "Ambiente",
     },
   ];
@@ -165,3 +168,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+

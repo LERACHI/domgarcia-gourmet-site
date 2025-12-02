@@ -84,14 +84,6 @@ const Home = () => {
                   Peça Agora
                 </a>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
-                asChild
-              >
-                <a href="/cardapio">Ver Cardápio</a>
-              </Button>
             </div>
           </div>
         </div>

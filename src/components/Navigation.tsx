@@ -24,7 +24,11 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <img src={logo} alt="Dom Garcia Logo" className="h-12 w-auto logo-wave" />
+            <img
+              src={logo}
+              alt="Dom Garcia Logo"
+              className="h-12 w-12 rounded-full object-cover logo-wave"
+            />
           </Link>
 
           {/* Desktop Navigation */}
