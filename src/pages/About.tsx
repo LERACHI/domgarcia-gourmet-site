@@ -3,6 +3,13 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Card } from "@/components/ui/card";
 import { Award, Users, Heart, TrendingUp } from "lucide-react";
+import fachadaNoite from "@/assets/fachada-noite.png";
+import pizzaGourmet1 from "@/assets/pizza-gourmet-1.png";
+import pizzaGourmet2 from "@/assets/pizza-gourmet-2.png";
+import interiorPizzaria from "@/assets/interior-pizzaria.png";
+import playground from "@/assets/playground.png";
+import variedadeCardapio from "@/assets/variedade-cardapio.png";
+import ambienteExterno from "@/assets/ambiente-externo.png";
 
 const About = () => {
   const values = [
@@ -45,6 +52,19 @@ const About = () => {
         </div>
       </section>
 
+      {/* Featured Image Section */}
+      <section className="py-12 px-4">
+        <div className="container mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-elegant hover-lift">
+            <img 
+              src={fachadaNoite} 
+              alt="Fachada da Dom Garcia Pizzaria à noite" 
+              className="w-full h-[400px] md:h-[500px] object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Story Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
@@ -59,6 +79,23 @@ const About = () => {
               <p className="text-muted-foreground text-lg leading-relaxed">
                 Na Dom Garcia, o cliente pode degustar <strong className="text-primary">sabores exclusivos</strong> criados pelo chef, como <em>Salame com Torresmo</em>, <em>Mineirinha</em> ou <em>Pernil ao Barbecue</em>.
               </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div className="rounded-xl overflow-hidden shadow-elegant hover-lift">
+                  <img 
+                    src={pizzaGourmet1} 
+                    alt="Pizza gourmet artesanal Dom Garcia" 
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="rounded-xl overflow-hidden shadow-elegant hover-lift">
+                  <img 
+                    src={pizzaGourmet2} 
+                    alt="Pizza gourmet com ingredientes selecionados" 
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              </div>
             </div>
 
             <div className="border-t border-border pt-6">
@@ -68,6 +105,31 @@ const About = () => {
               <p className="text-muted-foreground text-lg leading-relaxed">
                 A proposta deu tão certo que, após dois anos de muito trabalho, a pizzaria cresceu e precisou mudar de endereço. Hoje contamos com um <strong className="text-foreground">espaço amplo e confortável</strong> para recepcionar amigos e famílias, com <strong className="text-secondary">playground para as crianças</strong>.
               </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div className="rounded-xl overflow-hidden shadow-elegant hover-lift">
+                  <img 
+                    src={interiorPizzaria} 
+                    alt="Interior amplo e confortável da Dom Garcia" 
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="rounded-xl overflow-hidden shadow-elegant hover-lift">
+                  <img 
+                    src={playground} 
+                    alt="Playground colorido para as crianças" 
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              </div>
+              
+              <div className="rounded-xl overflow-hidden shadow-elegant hover-lift mt-6">
+                <img 
+                  src={ambienteExterno} 
+                  alt="Ambiente externo acolhedor da Dom Garcia" 
+                  className="w-full h-64 object-cover"
+                />
+              </div>
             </div>
 
             <div className="border-t border-border pt-6">
@@ -77,6 +139,14 @@ const About = () => {
               <p className="text-muted-foreground text-lg leading-relaxed">
                 O menu da Dom Garcia também ampliou e atualmente a empresa trabalha com <strong className="text-foreground">pizzas e esfihas</strong> (com ou sem lactose), <strong className="text-foreground">porções, trios e pratos individuais</strong>.
               </p>
+              
+              <div className="rounded-xl overflow-hidden shadow-elegant hover-lift mt-6">
+                <img 
+                  src={variedadeCardapio} 
+                  alt="Variedade do cardápio Dom Garcia com pizzas, porções e pratos" 
+                  className="w-full h-80 object-cover"
+                />
+              </div>
             </div>
           </Card>
         </div>
