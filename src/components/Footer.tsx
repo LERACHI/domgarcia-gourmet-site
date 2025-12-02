@@ -1,5 +1,5 @@
 import { Instagram, Facebook, MapPin, Phone, Mail } from "lucide-react";
-import logo from "@/assets/logo-dom-garcia.jpg";
+import logo from "@/assets/logo-dom-garcia-official.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo e Descrição */}
           <div className="space-y-4">
-            <img src={logo} alt="Dom Garcia Logo" className="h-16 w-auto" />
+            <img src={logo} alt="Dom Garcia Logo" className="h-16 w-auto logo-wave" />
             <p className="text-muted-foreground text-sm">
               Pizzaria gourmet em Foz do Iguaçu, oferecendo sabores exclusivos
               e ingredientes de qualidade desde 2016.
