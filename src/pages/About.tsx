@@ -57,8 +57,8 @@ const About = () => {
         <div className="container mx-auto">
           <div className="rounded-2xl overflow-hidden shadow-elegant hover-lift">
             <img 
-              src={fachadaNoite} 
-              alt="Fachada da Dom Garcia Pizzaria à noite" 
+              src={ambienteExterno} 
+              alt="Ambiente externo acolhedor da Dom Garcia" 
               className="w-full h-[400px] md:h-[500px] object-cover"
             />
           </div>
@@ -125,8 +125,8 @@ const About = () => {
               
               <div className="rounded-xl overflow-hidden shadow-elegant hover-lift mt-6">
                 <img 
-                  src={ambienteExterno} 
-                  alt="Ambiente externo acolhedor da Dom Garcia" 
+                  src={fachadaNoite} 
+                  alt="Fachada da Dom Garcia Pizzaria à noite" 
                   className="w-full h-64 object-cover"
                 />
               </div>
