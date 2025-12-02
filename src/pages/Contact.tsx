@@ -100,12 +100,12 @@ const Contact = () => {
                     href={info.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-smooth block"
+                    className="text-muted-foreground hover:text-primary transition-smooth block break-words"
                   >
                     {info.content}
                   </a>
                 ) : (
-                  <p className="text-muted-foreground">{info.content}</p>
+                  <p className="text-muted-foreground break-words">{info.content}</p>
                 )}
               </Card>
             ))}
